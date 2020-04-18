@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.2",
     "eslint": "^6.8.0",
@@ -24,6 +25,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "html-webpack-plugin": "^4.2.0",
+    "jest": "^25.3.0",
+    "jsdom": "^16.2.2",
     "style-loader": "^1.1.4",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
